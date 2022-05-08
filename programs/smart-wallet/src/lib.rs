@@ -507,7 +507,8 @@ pub struct CreateSubaccountInfo<'info> {
             &subaccount.to_bytes()
         ],
         bump,
-        payer = payer
+        payer = payer,
+        space = 4 + 4,
     )]
     pub subaccount_info: Account<'info, SubaccountInfo>,
     /// Payer to create the [SubaccountInfo].

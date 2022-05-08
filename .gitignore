@@ -6,8 +6,6 @@ node_modules
 
 # Generated IDL types
 artifacts/
-dist/
-src/idls/
 
 .yarn/*
 !.yarn/patches
